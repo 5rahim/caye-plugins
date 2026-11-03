@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <title>Light Novels</title>
+  <rect width="64" height="64" rx="16" fill="#7c2d12"/>
+  <g transform="translate(5.5 6) scale(0.83)">
+  <path d="M32 9l2.8 6.9L42 18.7l-7.2 2.8L32 28.4l-2.8-6.9L22 18.7l7.2-2.8z" fill="#fcd34d"/>
+  <path d="M11 31c7.5-2.2 14.5-1.4 20 2.6v19.2c-5.5-3.6-12.5-4.4-20-2.4z" fill="#ffffff"/>
+  <path d="M53 31c-7.5-2.2-14.5-1.4-20 2.6v19.2c5.5-3.6 12.5-4.4 20-2.4z" fill="#ffffff"/>
+  </g>
+</svg>
