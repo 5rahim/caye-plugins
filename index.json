@@ -4,12 +4,12 @@
     {
       "pluginId": "caye.anilist",
       "name": "AniList",
-      "version": "1.1.1",
-      "url": "https://github.com/5rahim/caye-plugins/releases/download/caye.anilist-1.1.1/caye.anilist-1.1.1.zip",
-      "digest": "a4f3f65e98ef373b1060650715d7678b4f703db0a5722e1d7db8302e0057a9a9",
+      "version": "1.1.2",
+      "url": "https://github.com/5rahim/caye-plugins/releases/download/caye.anilist-1.1.2/caye.anilist-1.1.2.zip",
+      "digest": "87c211e3dffe37dff3128a879bdd5c3f23ce750bb83f3911518e3a33aa36fa7e",
       "publisher": "Caye",
       "sdk": "^1.0.0",
-      "notes": "Adds a plugin icon.",
+      "notes": "",
       "description": "Syncs your anime and manga lists, progress and ratings with AniList.",
       "capabilities": [
         "integration"
@@ -21,32 +21,15 @@
       "name": "Subtitles",
       "version": "1.0.2",
       "url": "https://github.com/5rahim/caye-plugins/releases/download/caye.subtitles-1.0.2/caye.subtitles-1.0.2.zip",
-      "digest": "c57dd3a0558733d72c1d678da6540ab2ed657b581234478fd1aaf49e7247bee5",
+      "digest": "b0f355dfe9bb5f5e664a1f57a817b8b29f7cb7b959718cbc335c1391704fcc9d",
       "publisher": "Caye",
       "sdk": "^1.0.0",
-      "notes": "Adds a plugin icon.",
+      "notes": "",
       "description": "Searches OpenSubtitles and Wyzie for subtitles and fetches the chosen file.",
       "capabilities": [
         "integration"
       ],
       "icon": "https://raw.githubusercontent.com/5rahim/caye-plugins/main/icons/caye.subtitles.svg"
-    },
-    {
-      "pluginId": "caye.stremio",
-      "name": "Stremio add-ons",
-      "version": "1.0.2",
-      "url": "https://github.com/5rahim/caye-plugins/releases/download/caye.stremio-1.0.2/caye.stremio-1.0.2.zip",
-      "digest": "a2e57be16dc10a5a5c76080b4873cebcc9e52f9085e2d3caaff0b94e0e2f81c3",
-      "publisher": "Caye",
-      "sdk": "^1.0.0",
-      "notes": "Adds a plugin icon.",
-      "description": "Browses Stremio add-on catalogs and plays their streams and subtitles.",
-      "capabilities": [
-        "metadata",
-        "source",
-        "integration"
-      ],
-      "icon": "https://raw.githubusercontent.com/5rahim/caye-plugins/main/icons/caye.stremio.svg"
     }
   ]
 }
