@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="referrer" content="no-referrer">
+<title>Caye sign-in</title>
+<style>
+:root { color-scheme: light dark; --bg: #ffffff; --fg: #1b1b1f; --muted: #5f6068; }
+@media (prefers-color-scheme: dark) { :root { --bg: #141417; --fg: #ececf0; --muted: #a0a1aa; } }
+body { margin: 0; min-height: 100vh; display: grid; place-items: center; background: var(--bg); color: var(--fg); font: 16px/1.5 system-ui, sans-serif; padding: 0 16px; }
+p { max-width: 32rem; text-align: center; }
+small { color: var(--muted); }
+</style>
+</head>
+<body>
+<p id="message">Returning to Caye…</p>
+<script>
+(function () {
+    var message = document.getElementById("message")
+    function fail(text) {
+        message.textContent = text
+    }
+    var query = new URLSearchParams(window.location.search)
+    var packed = query.get("state")
+    if (!packed) return fail("This sign-in link is missing its return address. Start Sign in again from Caye.")
+    var target
+    try {
+        var json = atob(packed.replace(/-/g, "+").replace(/_/g, "/"))
+        target = JSON.parse(json)
+    } catch (e) {
+        return fail("This sign-in link is damaged. Start Sign in again from Caye.")
+    }
+    var back
+    try {
+        back = new URL(target.r)
+    } catch (e) {
+        return fail("This sign-in link is damaged. Start Sign in again from Caye.")
+    }
+    if ((back.protocol !== "https:" && back.protocol !== "http:") || back.pathname.replace(/\/+$/, "").slice(-16) !== "/connection-auth" || typeof target.s !== "string") {
+        return fail("This sign-in link does not return to a Caye server. Start Sign in again from Caye.")
+    }
+    var out = new URLSearchParams()
+    query.forEach(function (value, key) {
+        if (key !== "state") out.append(key, value)
+    })
+    out.set("state", target.s)
+    back.search = out.toString()
+    back.hash = ""
+    window.location.replace(back.toString())
+})()
+</script>
+<noscript><p><small>Turn on JavaScript to return to Caye.</small></p></noscript>
+</body>
+</html>

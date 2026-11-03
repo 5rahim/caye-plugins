@@ -1,0 +1,131 @@
+{
+  "publisher": "Caye",
+  "releases": [
+    {
+      "pluginId": "caye.anilist",
+      "name": "AniList",
+      "version": "1.3.1",
+      "url": "https://github.com/5rahim/caye-plugins/releases/download/caye.anilist-1.3.1/caye.anilist-1.3.1.zip",
+      "digest": "1a86a62b0345971a8c94544344e30799e0bd65bb6d6e3a13fc011f8a6d193833",
+      "publisher": "Caye",
+      "sdk": "^1.0.0",
+      "notes": "Added AniList manga and light novel catalogs, per-kind connection switches and novel list tracking.",
+      "description": "Syncs your anime, manga and light novel lists, progress and ratings with AniList, and finds anime, manga and light novels.",
+      "capabilities": [
+        "metadata",
+        "integration"
+      ],
+      "icon": "https://raw.githubusercontent.com/5rahim/caye-plugins/main/icons/caye.anilist.svg"
+    },
+    {
+      "pluginId": "caye.subtitles",
+      "name": "Subtitles",
+      "version": "1.0.4",
+      "url": "https://github.com/5rahim/caye-plugins/releases/download/caye.subtitles-1.0.4/caye.subtitles-1.0.4.zip",
+      "digest": "dcd725b9665f747d6290efecf67c95f27342b933f127ab3f56bdf291189318b4",
+      "publisher": "Caye",
+      "sdk": "^1.0.0",
+      "notes": "",
+      "description": "Searches OpenSubtitles and Wyzie for subtitles and fetches the chosen file.",
+      "capabilities": [
+        "integration"
+      ],
+      "icon": "https://raw.githubusercontent.com/5rahim/caye-plugins/main/icons/caye.subtitles.svg"
+    },
+    {
+      "pluginId": "caye.stremio",
+      "name": "Stremio add-ons",
+      "version": "1.0.5",
+      "url": "https://github.com/5rahim/caye-plugins/releases/download/caye.stremio-1.0.5/caye.stremio-1.0.5.zip",
+      "digest": "9cfef53e3f5d43fe6b75424df6f96cdb241d9f32ad5e5fec1d599f109ca57e9c",
+      "publisher": "Caye",
+      "sdk": "^1.0.0",
+      "notes": "Shows that the add-on needs setup instead of a failure when its address is missing.",
+      "description": "Browses Stremio add-on catalogs and plays their streams and subtitles.",
+      "capabilities": [
+        "metadata",
+        "source",
+        "integration"
+      ],
+      "icon": "https://raw.githubusercontent.com/5rahim/caye-plugins/main/icons/caye.stremio.png"
+    },
+    {
+      "pluginId": "caye.books",
+      "name": "Books",
+      "version": "1.2.1",
+      "url": "https://github.com/5rahim/caye-plugins/releases/download/caye.books-1.2.1/caye.books-1.2.1.zip",
+      "digest": "f0c75133bdda8f53b828e72b2cb8e8a60f16797ab74ff146ee312275a42f1521",
+      "publisher": "Caye",
+      "sdk": "^1.0.0",
+      "notes": "",
+      "description": "Finds books on Open Library and reads public-domain books from Project Gutenberg.",
+      "capabilities": [
+        "metadata",
+        "source"
+      ],
+      "icon": "https://raw.githubusercontent.com/5rahim/caye-plugins/main/icons/caye.books.svg"
+    },
+    {
+      "pluginId": "caye.manga",
+      "name": "Manga",
+      "version": "1.2.1",
+      "url": "https://github.com/5rahim/caye-plugins/releases/download/caye.manga-1.2.1/caye.manga-1.2.1.zip",
+      "digest": "96e64c346809eddc55022c01ed4a3a364b0e25b3f223d579701f7d746d861c44",
+      "publisher": "Caye",
+      "sdk": "^1.0.0",
+      "notes": "Removed the built-in AniList catalog so manga can come from AniList or MyAnimeList.",
+      "description": "Lets you keep manga in your library, organized by chapter.",
+      "capabilities": [
+        "metadata"
+      ],
+      "icon": "https://raw.githubusercontent.com/5rahim/caye-plugins/main/icons/caye.manga.svg"
+    },
+    {
+      "pluginId": "caye.light-novels",
+      "name": "Light Novels",
+      "version": "1.1.1",
+      "url": "https://github.com/5rahim/caye-plugins/releases/download/caye.light-novels-1.1.1/caye.light-novels-1.1.1.zip",
+      "digest": "ce2b3493167f6495ad0bf997af8f6f9d3d2826b828a7e51fea8ce7d410d9ebd8",
+      "publisher": "Caye",
+      "sdk": "^1.0.0",
+      "notes": "Removed the built-in AniList catalog so light novels can come from AniList or MyAnimeList.",
+      "description": "Lets you keep light novels in your library, organized by chapter.",
+      "capabilities": [
+        "metadata"
+      ],
+      "icon": "https://raw.githubusercontent.com/5rahim/caye-plugins/main/icons/caye.light-novels.svg"
+    },
+    {
+      "pluginId": "caye.iptv-org",
+      "name": "iptv-org Directory",
+      "version": "1.0.1",
+      "url": "https://github.com/5rahim/caye-plugins/releases/download/caye.iptv-org-1.0.1/caye.iptv-org-1.0.1.zip",
+      "digest": "064da789519cf4020029c4129d3abefaff15cbe2a05ca41f9096e8923c45892a",
+      "publisher": "Caye",
+      "sdk": "^1.0.0",
+      "notes": "",
+      "description": "Browses public iptv-org channels by country, category and language and adds them as M3U sources.",
+      "capabilities": [
+        "live",
+        "tool"
+      ],
+      "icon": "https://raw.githubusercontent.com/5rahim/caye-plugins/main/icons/caye.iptv-org.svg"
+    },
+    {
+      "pluginId": "caye.myanimelist",
+      "name": "MyAnimeList",
+      "version": "1.2.1",
+      "url": "https://github.com/5rahim/caye-plugins/releases/download/caye.myanimelist-1.2.1/caye.myanimelist-1.2.1.zip",
+      "digest": "a0e3e3008f148b20b75b53353cb9977afb15caccdeee3159f2abc8e661f3d0d2",
+      "publisher": "Caye",
+      "sdk": "^1.0.0",
+      "notes": "Added MyAnimeList manga and light novel catalogs, split manga and novel tracking, and added media kind switches.",
+      "description": "Finds anime, manga and light novels, and keeps your lists in sync with MyAnimeList.",
+      "capabilities": [
+        "metadata",
+        "integration"
+      ],
+      "icon": "https://raw.githubusercontent.com/5rahim/caye-plugins/main/icons/caye.myanimelist.svg"
+    }
+  ]
+}
