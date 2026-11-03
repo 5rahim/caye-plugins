@@ -4,35 +4,49 @@
     {
       "pluginId": "caye.anilist",
       "name": "AniList",
-      "version": "1.1.0",
-      "url": "https://github.com/5rahim/caye-plugins/releases/download/caye.anilist-1.1.0/caye.anilist-1.1.0.zip",
-      "digest": "57f24a95b3c914af3374c4b4a8abb1539152bab345303a35eadbea1c7b583e8f",
+      "version": "1.1.1",
+      "url": "https://github.com/5rahim/caye-plugins/releases/download/caye.anilist-1.1.1/caye.anilist-1.1.1.zip",
+      "digest": "a4f3f65e98ef373b1060650715d7678b4f703db0a5722e1d7db8302e0057a9a9",
       "publisher": "Caye",
       "sdk": "^1.0.0",
-      "notes": "Sync anime and manga lists, including chapter progress, ratings, dates and rereads. Manga pairs with catalogs declaring anilistmangaid. Existing anime links and episode coverage are preserved.",
-      "description": "Syncs your anime and manga lists, progress and ratings with AniList."
+      "notes": "Adds a plugin icon.",
+      "description": "Syncs your anime and manga lists, progress and ratings with AniList.",
+      "capabilities": [
+        "integration"
+      ],
+      "icon": "https://raw.githubusercontent.com/5rahim/caye-plugins/main/icons/caye.anilist.svg"
     },
     {
       "pluginId": "caye.subtitles",
       "name": "Subtitles",
-      "version": "1.0.1",
-      "url": "https://github.com/5rahim/caye-plugins/releases/download/caye.subtitles-1.0.1/caye.subtitles-1.0.1.zip",
-      "digest": "96eb628035ebfc13cc3431c277411f2a9a095ecd8bea7049d7deb381d109b54d",
+      "version": "1.0.2",
+      "url": "https://github.com/5rahim/caye-plugins/releases/download/caye.subtitles-1.0.2/caye.subtitles-1.0.2.zip",
+      "digest": "c57dd3a0558733d72c1d678da6540ab2ed657b581234478fd1aaf49e7247bee5",
       "publisher": "Caye",
       "sdk": "^1.0.0",
-      "notes": "Fixes OpenSubtitles search, which returned no results. Searches by title when a title has no IMDb or TMDb id, and accepts three-letter language codes such as eng.",
-      "description": "Searches OpenSubtitles and Wyzie for subtitles and fetches the chosen file."
+      "notes": "Adds a plugin icon.",
+      "description": "Searches OpenSubtitles and Wyzie for subtitles and fetches the chosen file.",
+      "capabilities": [
+        "integration"
+      ],
+      "icon": "https://raw.githubusercontent.com/5rahim/caye-plugins/main/icons/caye.subtitles.svg"
     },
     {
       "pluginId": "caye.stremio",
       "name": "Stremio add-ons",
-      "version": "1.0.1",
-      "url": "https://github.com/5rahim/caye-plugins/releases/download/caye.stremio-1.0.1/caye.stremio-1.0.1.zip",
-      "digest": "be6fd305893fb7379099559f7d6837aedd31855d1c39fbd0d0e8f3409a1373b5",
+      "version": "1.0.2",
+      "url": "https://github.com/5rahim/caye-plugins/releases/download/caye.stremio-1.0.2/caye.stremio-1.0.2.zip",
+      "digest": "a2e57be16dc10a5a5c76080b4873cebcc9e52f9085e2d3caaff0b94e0e2f81c3",
       "publisher": "Caye",
       "sdk": "^1.0.0",
-      "notes": "Allows HTTP add-ons on localhost, 127.0.0.1 and ::1 with private-network consent. Remote add-ons require HTTPS.",
-      "description": "Browses Stremio add-on catalogs and plays their streams and subtitles."
+      "notes": "Adds a plugin icon.",
+      "description": "Browses Stremio add-on catalogs and plays their streams and subtitles.",
+      "capabilities": [
+        "metadata",
+        "source",
+        "integration"
+      ],
+      "icon": "https://raw.githubusercontent.com/5rahim/caye-plugins/main/icons/caye.stremio.svg"
     }
   ]
 }
